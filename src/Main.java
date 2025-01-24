@@ -16,12 +16,12 @@ public class Main {
         skeleton.printInfo();
         System.out.println("-----------------");
         Skeleton skeleton1=new Skeleton();
-        skeleton.setArrows(100);
-        skeleton.setHealth(900);
-        skeleton.setDamage(70);
+        skeleton1.setArrows(100);
+        skeleton1.setHealth(900);
+        skeleton1.setDamage(70);
         Weapon weapon2=new Weapon(WeaponType.MELEE,"Knife");
-        skeleton.setWeapon(weapon2);
-        skeleton.printInfo();
+        skeleton1.setWeapon(weapon2);
+        skeleton1.printInfo();
     }
 
 }
